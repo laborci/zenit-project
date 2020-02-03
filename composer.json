@@ -1,5 +1,5 @@
 {
-	"name": "laborci/eternity2project",
+	"name": "zenit/project",
 	"authors": [
 		{
 			"name": "Gergely Laborci",
@@ -7,17 +7,17 @@
 		}
 	],
 	"require": {
-		"zenit/core": "~1.0.0",
+		"zenit/core": "~1.0.3",
 		"zenit/cache": "~1.0.0",
-		"zenit/codex": "~1.0.0",
-		"zenit/dbaccess": "~1.0.0",
-		"zenit/ghost": "~1.0.0",
+		"zenit/codex": "~1.0.3",
+		"zenit/dbaccess": "~1.0.2",
+		"zenit/ghost": "~1.0.2",
 		"zenit/gmark": "~1.0.0",
-		"zenit/mission": "~1.0.0",
-		"zenit/remotelog": "~1.0.0",
+		"zenit/mission": "~1.0.3",
+		"zenit/remotelog": "~1.0.2",
 		"zenit/session": "~1.0.0",
-		"zenit/smartpageresponder": "~1.0.0",
-		"zenit/zuul": "~1.0.0",
+		"zenit/smartpageresponder": "~1.0.2",
+		"zenit/zuul": "~1.0.2",
 		"rah/danpu": "^2.7",
 		"phpmailer/phpmailer": "^6.1",
 		"ext-json": "*",
