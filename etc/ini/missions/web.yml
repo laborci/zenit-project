@@ -1,0 +1,5 @@
+pattern~: ("www." + sys.domain)
+mission: \Application\Mission\Web\Mission
+modules:
+  SmartPageResponder.twig-source ~root: "app.mission.web/template"
+

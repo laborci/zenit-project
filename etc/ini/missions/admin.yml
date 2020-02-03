@@ -1,0 +1,12 @@
+pattern~: ("admin." + sys.domain)
+mission: Zenit\Bundle\Codex\Component\Mission
+modules:
+  SmartPageResponder:
+  Zuul.services:
+    AuthRepository: \Application\Service\Auth\AuthRepository
+    Authenticable: \Ghost\User
+  Codex:
+    services.WhoAmI: Application\Service\Auth\CodexWhoAmI
+    frontend-prefix: ~admin/
+    initializer: Application\AdminCodex\Codex
+

@@ -1,0 +1,7 @@
+defaults:
+  scheme: mysql
+  host: localhost
+  port: 3306
+  charset: utf8
+default-database: default
+databases @: app/databases

@@ -1,0 +1,4 @@
+default:
+  user: root
+  password: root
+  database: zenit

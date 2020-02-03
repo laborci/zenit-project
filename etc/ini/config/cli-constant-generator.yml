@@ -1,0 +1,4 @@
+namespaces:
+  - Application\Constant
+classes:
+#  - Application\Constant\AjaxError

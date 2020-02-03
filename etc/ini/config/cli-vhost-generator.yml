@@ -1,0 +1,9 @@
+virtualhost:
+  template ~path.etc: vhost/virtualhost.conf
+  output ~path.var: virtualhost.conf
+htaccess:
+  template ~path.etc: vhost/htaccess
+  output ~path.var: .htaccess
+user-ini:
+  template ~path.etc: vhost/user.ini
+  output ~path.var: .user.ini

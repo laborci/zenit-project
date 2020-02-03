@@ -1,0 +1,5 @@
+twig:
+  cache ~: path.var + "template-cache/"
+  debug: true
+language: sys.language
+client-version ~: root + "build-version"

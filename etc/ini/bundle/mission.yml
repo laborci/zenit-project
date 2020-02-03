@@ -1,0 +1,2 @@
+web:
+  output-cache ~: path.var + "output-cache/"

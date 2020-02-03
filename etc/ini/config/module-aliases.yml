@@ -1,0 +1,5 @@
+Codex: Zenit\Bundle\Codex\Module
+SmartPageResponder: Zenit\Bundle\SmartPageResponder\Module
+Zuul: Zenit\Bundle\Zuul\Module
+MissionRunner: Zenit\Bundle\Mission\Module
+RemoteLog: Zenit\Bundle\RemoteLog\Module

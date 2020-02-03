@@ -1,0 +1,6 @@
+api:
+  path: /api/
+  namespace: Application\Mission\Web\Api
+  extract:
+    - file ~root: app.mission.web/frontend-app/end-points.js
+      as: Endpoints

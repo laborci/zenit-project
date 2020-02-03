@@ -1,0 +1,19 @@
+entity:
+  namespace: Application\Ghost
+  default-database ~: bundle.dbaccess.default-database
+  codex-helper-namespace: Application\AdminCodex\GhostHelper
+  entities @: app/ghosts
+
+# attachment
+attachment:
+  path ~: path.data + "attachment/"
+  meta-db-path ~: path.data + "attachment-meta/"
+  url: /~fs
+
+# thumbnail
+thumbnail:
+  path ~: path.var + "thumbnail/"
+  source-path ~: bundle.ghost.attachment.path
+  secret: ferengi
+  url: /~thumbnail
+

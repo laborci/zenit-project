@@ -1,0 +1,3 @@
+groups: Application\Constant\Permission\Group
+user-ghost: Application\Ghost\User
+user-group-field: groups

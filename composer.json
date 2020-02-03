@@ -1,0 +1,39 @@
+{
+	"name": "laborci/eternity2project",
+	"authors": [
+		{
+			"name": "Gergely Laborci",
+			"email": "gergely@laborci.hu"
+		}
+	],
+	"require": {
+		"zenit/core": "~1.0.0",
+		"zenit/cache": "~1.0.0",
+		"zenit/codex": "~1.0.0",
+		"zenit/dbaccess": "~1.0.0",
+		"zenit/ghost": "~1.0.0",
+		"zenit/gmark": "~1.0.0",
+		"zenit/mission": "~1.0.0",
+		"zenit/remotelog": "~1.0.0",
+		"zenit/session": "~1.0.0",
+		"zenit/smartpageresponder": "~1.0.0",
+		"zenit/zuul": "~1.0.0",
+		"rah/danpu": "^2.7",
+		"phpmailer/phpmailer": "^6.1",
+		"ext-json": "*",
+		"ext-pdo": "*",
+		"ext-sqlite3": "*",
+		"ext-gd": "*",
+		"ext-simplexml": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Application\\": "app",
+			"Ghost\\": "app.ghost",
+			"Application\\AdminCodex\\": "app.mission.admin/codex",
+			"Application\\Mission\\Api\\": "app.mission/api",
+			"Application\\Cli\\": "app.mission/cli",
+			"Application\\Mission\\Web\\": "app.mission.web/app"
+		}
+	}
+}

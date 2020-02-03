@@ -1,0 +1,12 @@
+pattern: ":"
+mission: \Zenit\Bundle\Mission\Component\Cli\CliMission
+modules:
+  Zenit\Core\Cli\CliModule\ShowEnv:
+  Zenit\Core\Cli\CliModule\ApiExtractor @: config/cli-api-extractor
+  Zenit\Core\Cli\CliModule\ConstantGenerator @: config/cli-constant-generator
+  Zenit\Core\Cli\CliModule\Vhost @: config/cli-vhost-generator
+  Zenit\Bundle\DBAccess\CliModule\Dump:
+  Zenit\Bundle\Ghost\EntityGenerator\CliModule\Ghost:
+  Zenit\Bundle\Ghost\CodexHelper\CliModule\CodexHelper:
+  Application\CliCommand\Test:
+  Zenit\Bundle\Zuul\Component\RoleManager\CliModule\UpdateGroups:
